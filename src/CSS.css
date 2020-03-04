@@ -23,15 +23,22 @@ body {
     text-align: center;
 }
 
-#UserRegistration {
+#RegistrationTitle{
     font-family: 'Arvo';
+    font-weight: bold;
     font-size: 32px;
     color: rgba(22, 39, 193, 0.89);
     text-transform: uppercase;
     text-decoration: none;
+
+}
+#UserRegistration {
+    background-image: url("images/foodPattern.png");
+    margin: 50px;
+    padding: 20px;
 }
 
-.dish:link {
+.dish{
     font-family: 'Merriweather';
     font-size: 20px;
     font-weight: normal;
