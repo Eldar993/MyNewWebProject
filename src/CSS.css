@@ -1,24 +1,43 @@
-body{
+body {
     background-color: #ffff91;
 
 }
-.titles{
+
+.titles {
     font-family: Calibri;
     font-size: 40px;
     color: crimson;
 }
-.listHeading{
+
+.listHeading {
     font-family: "Calibri Light";
     font-size: 36px;
+    font-weight: bolder;
+    color: rgba(193, 29, 21, 0.89);
 }
 
-.registration{
-    color: rgba(8,8,53,0.89);
+.registration {
+    color: rgba(8, 8, 53, 0.89);
     font-family: "Roboto mono";
     font-size: 20px;
+    text-align: center;
 }
-#UserRegistration{
-    font-family: 'Arvo' ;
+
+#UserRegistration {
+    font-family: 'Arvo';
     font-size: 32px;
-    color: rgba(22,39,193,0.89);
+    color: rgba(22, 39, 193, 0.89);
+    text-transform: uppercase;
+    text-decoration: none;
 }
+
+.dish:link {
+    font-family: 'Merriweather';
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(8, 8, 53, 0.89);
+}
+
+
