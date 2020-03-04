@@ -1,11 +1,24 @@
-h1 {
-    color: crimson;
-    font-family: Arial;
-}
 body{
-    background: #ffff91;
+    background-color: #ffff91;
+
 }
+.titles{
+    font-family: Calibri;
+    font-size: 40px;
+    color: crimson;
+}
+.listHeading{
+    font-family: "Calibri Light";
+    font-size: 36px;
+}
+
 .registration{
     color: rgba(8,8,53,0.89);
     font-family: "Roboto mono";
+    font-size: 20px;
+}
+#UserRegistration{
+    font-family: 'Arvo' ;
+    font-size: 32px;
+    color: rgba(22,39,193,0.89);
 }
