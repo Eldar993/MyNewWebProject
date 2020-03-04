@@ -1,0 +1,11 @@
+h1 {
+    color: crimson;
+    font-family: Arial;
+}
+body{
+    background: #ffff91;
+}
+.registration{
+    color: rgba(8,8,53,0.89);
+    font-family: "Roboto mono";
+}
