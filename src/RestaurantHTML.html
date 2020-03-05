@@ -11,72 +11,65 @@
 
 </head>
 <body>
-<div id="description">
-    <h1 class="titles">This is my <i>Restaurant</i> Website <img src="images/restlogo.png" alt="Restaurant logo"
-                                                                 title="International restaurant" width="200"
-                                                                 height="200"
-                                                                 align="middle">
+<div id="intro">
+    <h1 class="titles" id="h1title"><img src="images/restlogo.png" alt="Restaurant logo"
+                                         title="International restaurant" width="200"
+                                         height="200"
+                                         align="left">This is my <i>Restaurant</i> Website
 
     </h1>
-    <a href="UserRegistration.html" id="RegistrationTitle">Registration form</a>
-    <fieldset>
-        <p>Username
-            <input type="text" size="10" maxlength="10">
-        </p>
-        <p>Password
-            <input type="password" size="10">
-        </p>
-        <p>Yes
-            <input type="radio" name="Remember user" value="Yes" checked="checked">
-            No
-            <input type="radio" name="Remember user" value="No">
-        </p>
-        <input type="image" src="images/login.png" width="90" height="30">
+    <div id="signInBlock">
+        <a href="UserRegistration.html" id="RegistrationTitle">Registration form</a>
+        <fieldset id="signInField">
+            <p>Username
+                <input type="text" size="10" maxlength="10">
+            </p>
+            <p>Password
+                <input type="password" size="10">
+            </p>
+            <p>Yes
+                <input type="radio" name="Remember user" value="Yes" checked="checked">
+                No
+                <input type="radio" name="Remember user" value="No">
+            </p>
+            <input type="image" src="images/login.png" width="90" height="30">
 
 
-    </fieldset>
+        </fieldset>
+    </div>
     <p>It contain the menu and all other information</p>
     <p>My restaurant was opened at 15 <sup>th</sup> of February 2020</p>
 </div>
 <hr>
-<div>
+<div id="description">
     <h2 class="titles">The description of restaurant</h2>
-    <p>Holding three <b>Michelin stars</b> is a rare honour few restaurant have achieved, and these Michelin-starred
-        <br>
-        restaurant rank among the <em>world’s finest</em> culinary destinations thanks to innovation,creativity and <br>
+    <p><span id="descriptionText">Holding three <b>Michelin stars</b> is a rare honour few restaurant have achieved, and these Michelin-starred
+
+        restaurant rank among the <em>world’s finest</em> culinary destinations thanks to innovation,creativity and
         some of the
-        best food you’ll ever taste.</p>
+        best food you’ll ever taste.</span></p>
 
-    <dl>
-        <dt class="listHeading">Soups</dt>
-        <dd class="dish">Borsh</dd>
-        <dd class="dish">Bulyon</dd>
+    <ul>
+        <p class="MenuType">Soups</p>
+        <li class="dish">Borsh</li>
+        <li class="dish">Bulyon</li>
+    </ul>
+    <ul>
+        <p class="MenuType">Main dish</p>
+        <li><a href="Burger.html" class="dish">Burger</a></li>
+        <li><a href="Pizza.html" class="dish">Pizza</a></li>
+        <li class="dish">Salat</li>
 
-        <dt class="listHeading">Main dish</dt>
-        <dd>
-            <ol>
-                <li><a href="Burger.html" class="dish">Burger</a></li>
-                <li><a href="Pizza.html" class="dish">Pizza</a></li>
-                <li class="dish">Salat</li>
-            </ol>
-        </dd>
-        <dt class="listHeading">
-            Deserts
-        </dt>
-        <dd>
-            <ul>
-                <li class="dish">Cake
-                    <ul>
-                        <li><a href="https://en.wikipedia.org/wiki/Cheesecake" class="dish">Cheesecake</a></li>
-                        <li><a href="https://en.wikipedia.org/wiki/Chocolate_brownie#History" class="dish">Brownie</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="dish">Ice cream</li>
-                <li class="dish">Pirog</li>
-            </ul>
-        </dd>
-    </dl>
+    </ul>
+    <ul>
+        <p class="MenuType">Deserts</p>
+        <li><a href="https://en.wikipedia.org/wiki/Cheesecake" class="dish">Cheesecake</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Chocolate_brownie#History" class="dish">Brownie</a></li>
+        <li class="dish">Ice cream</li>
+        <li class="dish">Pirog</li>
+
+    </ul>
+
     <hr>
 </div>
 <div id="contacts">

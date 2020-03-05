@@ -2,40 +2,90 @@ body {
     background-color: #ffff91;
 
 }
-
+h1{
+    text-align: center;
+    text-indent: -200px;
+}
 .titles {
     font-family: Calibri;
     font-size: 40px;
     color: crimson;
 }
-
+h2{
+    text-align: center;
+}
+#intro{
+    height: 180px;
+    margin-bottom: 30px;
+}
+#signInField{
+    width: 350px;
+    height: 150px;
+}
+#signInBlock{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+#descriptionText{
+    font-family: 'Arvo';
+    font-style: normal;
+    font-size: 18px;
+}
 .listHeading {
     font-family: "Calibri Light";
     font-size: 36px;
     font-weight: bolder;
     color: rgba(193, 29, 21, 0.89);
+    display: inline;
 }
+/* Registration form */
 
+#RegistrationTitle{
+    font-family: 'Arvo';
+    font-weight: bold;
+    font-size: 28px;
+    color: rgba(22, 39, 193, 0.89);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: left;
+}
+#UserRegistration {
+    height: 750px;
+    background-image: url("images/foodPattern.png");
+    border-width: 20px;
+    border-color: crimson;
+    margin: 10px 40px 10px 40px;
+    padding: 5px;
+    border-radius: 20px;
+}
 .registration {
     color: rgba(8, 8, 53, 0.89);
     font-family: "Roboto mono";
     font-size: 20px;
     text-align: center;
-}
-
-#RegistrationTitle{
-    font-family: 'Arvo';
-    font-weight: bold;
-    font-size: 32px;
-    color: rgba(22, 39, 193, 0.89);
-    text-transform: uppercase;
-    text-decoration: none;
+    padding: 2px;
 
 }
-#UserRegistration {
-    background-image: url("images/foodPattern.png");
-    margin: 50px;
-    padding: 20px;
+.InputRegistration{
+    width: 200px;
+    border-width: medium;
+    border-color: crimson;
+    border-radius: 10px;
+    padding: 8px 5px 8px 5px;
+    margin: 5px 5px 5px 5px;
+    background-color: rgba(123,115,114,0.79);
+
+}
+.InputRegistration:focus{
+    background-color: white;
+}
+
+.MenuType{
+    font-family: "Calibri Light";
+    font-size: 36px;
+    font-weight: bolder;
+    color: rgba(193, 29, 21, 0.89);
 }
 
 .dish{
@@ -48,3 +98,29 @@ body {
 }
 
 
+/* Burger */
+table{
+    width: 50px;
+    background-color: aquamarine;
+    border-color: crimson;
+
+}
+thead{
+    font-size: 24px;
+    font-family: 'Arvo';
+    font-weight: bolder;
+    border-width: 10px;
+}
+tbody{
+    font-family: 'Calibri Light';
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: lowercase;
+    text-decoration: black;
+}
+
+th{
+    text-transform: capitalize;
+    border: 1px solid #0088dd;
+
+}
