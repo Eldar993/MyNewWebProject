@@ -40,10 +40,7 @@ input[class="inputField"]:focus{
     border-radius: 5px;
     border:2px solid forestgreen;
 }
-input[type="submit"]:active{
 
-
-}
 legend{
     width:90px;
     height: 20px;
@@ -61,4 +58,6 @@ legend{
     background-color: rgba(106,111,123,0.79);
     border: 2px solid black;
     border-radius: 5px;
+    position: absolute;
+    right: 10px;
 }

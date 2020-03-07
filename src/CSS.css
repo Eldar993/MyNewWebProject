@@ -14,10 +14,11 @@ img[src="restlogo.png"]{
     left:20px;
 }
 h1{
+    font-family: "Oxanium", cursive;
     font-size: 32px;
     text-align: center;
     color: rebeccapurple;
-    text-indent: -200px;
+    text-shadow: 1px 3px 5px white;
 }
 
 span{
