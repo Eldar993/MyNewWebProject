@@ -15,33 +15,55 @@
     <h1 class="titles" id="h1title"><img src="images/restlogo.png" alt="Restaurant logo"
                                          title="International restaurant" width="200"
                                          height="200"
-                                         align="left">This is my <i>Restaurant</i> Website
+                                         align="left">This is my&nbsp;Restaurant Website
 
     </h1>
-    <div id="signInBlock">
-        <a href="UserRegistration.html" id="RegistrationTitle">Registration form</a>
+
+
+        <link href="signInBox.css" type="text/css" rel="stylesheet">
+
+    <form name="signInBox">
+
         <fieldset id="signInField">
+            <legend>Account</legend>
             <p>Username
-                <input type="text" size="10" maxlength="10">
+                <input class="inputField" type="text" size="10" maxlength="10">
             </p>
             <p>Password
-                <input type="password" size="10">
+                <input id="password"class="inputField" type="password" size="10">
             </p>
-            <p>Yes
-                <input type="radio" name="Remember user" value="Yes" checked="checked">
-                No
-                <input type="radio" name="Remember user" value="No">
-            </p>
-            <input type="image" src="images/login.png" width="90" height="30">
 
+            <input id="signInButton" type="submit" value="Sign in" width="90" height="30">
+            <a href="src/UserRegistration.html" id="RegistrationTitle"><input id="registerButton"type="submit" value="Register" width="90" height="30"></a>
 
         </fieldset>
-    </div>
+    </form>
+
+
+
     <p>It contain the menu and all other information</p>
     <p>My restaurant was opened at 15 <sup>th</sup> of February 2020</p>
+
+
+
+
+<div>
+    <table>
+        <p class="DishType">The main dish types</p>
+    <tr>
+        <th><a href="Soups.html" class="DishType">Soups</a></th>
+        <th><a href="Pizza.html" class="DishType">Pizza</a></th>
+        <th><a href="Burger.html" class="DishType">Burgers</a></th>
+        <th><a href="Salads.html" class="DishType">Salads</a></th>
+        <th><a href="Deserts.html" class="DishType">Deserts</a> </th>
+    </tr>
+    </table>
 </div>
+    <div id="MainSection">
+<p>Soon</p>
+    </div>
 <hr>
-<div id="description">
+<!--<div id="description">
     <h2 class="titles">The description of restaurant</h2>
     <p><span id="descriptionText">Holding three <b>Michelin stars</b> is a rare honour few restaurant have achieved, and these Michelin-starred
 
@@ -49,27 +71,8 @@
         some of the
         best food you’ll ever taste.</span></p>
 
-    <ul>
-        <p class="MenuType">Soups</p>
-        <li class="dish">Borsh</li>
-        <li class="dish">Bulyon</li>
-    </ul>
-    <ul>
-        <p class="MenuType">Main dish</p>
-        <li><a href="Burger.html" class="dish">Burger</a></li>
-        <li><a href="Pizza.html" class="dish">Pizza</a></li>
-        <li class="dish">Salat</li>
 
-    </ul>
-    <ul>
-        <p class="MenuType">Deserts</p>
-        <li><a href="https://en.wikipedia.org/wiki/Cheesecake" class="dish">Cheesecake</a></li>
-        <li><a href="https://en.wikipedia.org/wiki/Chocolate_brownie#History" class="dish">Brownie</a></li>
-        <li class="dish">Ice cream</li>
-        <li class="dish">Pirog</li>
-
-    </ul>
-
+-->
     <hr>
 </div>
 <div id="contacts">

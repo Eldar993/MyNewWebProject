@@ -1,0 +1,64 @@
+
+p{
+    color: black;
+    font-family: "Calibri Light";
+    font-weight: bolder;
+
+}
+
+input[class="inputField"]{
+    background-color: gainsboro;
+    border:2px solid greenyellow;
+    border-style: dashed;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#password{
+    margin-left: 15px;
+}
+input[class="inputField"]:hover{
+    width: 100px;
+    height: 20px;
+}
+input[class="inputField"]:focus{
+    background-color: white;
+}
+
+#signInButton{
+    font-family: 'Oxanium', cursive;
+    background-color: greenyellow;
+    margin-left: 5px;
+    border-radius: 5px;
+    border:2px solid
+
+}
+
+#registerButton{
+    font-family: 'Oxanium', cursive;
+    background-color: greenyellow;
+    margin-left: 70px;
+    border-radius: 5px;
+    border:2px solid forestgreen;
+}
+input[type="submit"]:active{
+
+
+}
+legend{
+    width:90px;
+    height: 20px;
+    font-family: "Oxanium",cursive;
+    background-color: greenyellow;
+    text-align: center;
+    padding-bottom: 2px;
+    border:2px solid forestgreen;
+    border-radius: 5px;
+
+}
+#signInField{
+    width: 230px;
+    height: 135px;
+    background-color: rgba(106,111,123,0.79);
+    border: 2px solid black;
+    border-radius: 5px;
+}
