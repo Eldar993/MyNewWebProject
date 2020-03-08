@@ -30,7 +30,7 @@ p.registration{
 select[name="country"]{
     width: 120px;
     height: 30px;
-    background-color: gainsboro;
+    background-color: #7b7372;
     border-radius: 5px;
 }
 select[name="country"]:focus{

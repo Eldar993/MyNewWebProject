@@ -1,0 +1,133 @@
+/* Layout */
+* {
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    text-align: center;}
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+#content {
+    overflow: auto;}
+#nav, #feature, #footer {
+    margin: 1%;}
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;}
+.column3 {
+    margin-right: 0%;}
+li {
+    display: inline;
+    padding: 0.5em;}
+#nav, #footer {
+    background-color: #efefef;
+    padding: 0.5em 0;}
+#feature, .article {
+    height: 15em;
+    margin-bottom: 1em;
+    background-color: #efefef;}
+/* Layout */
+h1{
+    font-family: "Oxanium", cursive;
+    font-size: 32px;
+    text-align: center;
+    color: rebeccapurple;
+    text-shadow: 1px 3px 5px darkslategrey;
+}
+table{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    border-collapse: collapse;
+    margin: 0% auto 0% auto;
+}
+.DishType{
+    width: 10%;
+
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+
+}
+.DishType:hover{
+    color: black;
+
+}
+th{
+    width: 10%;
+    height: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border:2px solid black;
+}
+th:hover{
+    background-color: white;
+    color: black;
+}
+
+h3{
+    font-family: "Oxanium", cursive;
+    font-size: 24px;
+    color: rebeccapurple;
+    text-shadow: 1px 3px 5px white;
+}
+
+/* Facebook,twitter buttons */
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    position: relative;
+    right: 20px;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    position: relative;
+    left:5px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+/* Map frame */
+iframe{
+    width: 100%;
+}
+
+textarea{
+    width: 90%;
+    height: 70%;
+    position: relative;
+    margin-top: 0px;
+    bottom: 10px;
+    text-align: left;
+    text-indent: -40px;
+    background-color: #a39897
+    border:1px solid black;
+    font-family: Arvo;
+    font-size: 18px;
+}
+input[type="submit"]{
+    position: relative;
+    bottom: 10px;
+}
+
+

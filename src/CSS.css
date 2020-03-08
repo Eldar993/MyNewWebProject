@@ -5,11 +5,11 @@ body{
 #intro{
     height: 200px;
     border: 5px solid #7b7372;
-    background-color: #2a9220;
+    background-color: white;
 
 }
 img[src="restlogo.png"]{
-    position: absolute;
+    position: relative;
     top:15px;
     left:20px;
 }
@@ -17,6 +17,12 @@ h1{
     font-family: "Oxanium", cursive;
     font-size: 32px;
     text-align: center;
+    color: rebeccapurple;
+    text-shadow: 1px 3px 5px white;
+}
+h3{
+    font-family: "Oxanium", cursive;
+    font-size: 32px;
     color: rebeccapurple;
     text-shadow: 1px 3px 5px white;
 }
@@ -38,25 +44,29 @@ table{
     position:absolute;
     top: 170px;
     left:00px;
+    border-collapse: collapse;
+
+}
+.DishType{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+
+}
+.DishType:hover{
+    color: black;
 
 }
 
 th{
     border:2px solid black;
-    border-collapse: collapse;
 }
-th:focus{
+th:hover{
     background-color: white;
-}
-.DishType{
-    font-size: 24px;
-    text-decoration: none;
-    color: white;
-}
-.DishType:focus{
     color: black;
-
 }
+
+
 
 #MainSection{
     width:900px;
@@ -65,7 +75,7 @@ th:focus{
     margin: 30px auto;
     position: absolute;
     top: 210px;
-    background-color: #2a9220;
+    background-color: white;
 }
 #contacts{
     width:1500px;
@@ -73,7 +83,7 @@ th:focus{
     border: 5px solid black;
     position: absolute;
     top:800px;
-    background-color: #2a9220;
+    background-color: white;
     border-radius: 3px;
 
 }
