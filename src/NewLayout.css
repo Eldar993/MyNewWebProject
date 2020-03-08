@@ -9,7 +9,7 @@ body {
 }
 #content {
     overflow: auto;}
-#nav, #feature, #footer {
+#nav, #feature {
     margin: 1%;}
 .column1, .column2, .column3 {
     width: 31.3%;
@@ -20,7 +20,7 @@ body {
 li {
     display: inline;
     padding: 0.5em;}
-#nav, #footer {
+#nav{
     background-color: #efefef;
     padding: 0.5em 0;}
 #feature, .article {
@@ -111,20 +111,31 @@ h3{
 iframe{
     width: 100%;
 }
-
-textarea{
-    width: 90%;
-    height: 70%;
+h4 {
+    font-family: "Oxanium", cursive;
+    font-size: 24px;
+    color: rebeccapurple;
+    text-shadow: 1px 3px 5px;
     position: relative;
-    margin-top: 0px;
-    bottom: 10px;
+    bottom: 30px;
+
+}
+textarea{
+    width: 95%;
+    height: 150px;
+    position: relative;
+    bottom: 60px;
     text-align: left;
     text-indent: -40px;
-    background-color: #a39897
+    background-color: #a39897;
     border:1px solid black;
     font-family: Arvo;
     font-size: 18px;
 }
+textarea:focus{
+    background-color: white;
+}
+
 input[type="submit"]{
     position: relative;
     bottom: 10px;
@@ -133,6 +144,8 @@ input[type="submit"]{
     background-color: #39bb55;
     font-size: 16px;
     border-radius: 20% 20%;
+    position: relative;
+    bottom: 50px;
 }
 
 
